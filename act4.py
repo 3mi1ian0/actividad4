@@ -1,17 +1,10 @@
 
 #Librerias
 
-from freegames import line
-from turtle import circle
-from turtle import done
-from turtle import down
-from turtle import goto
-from turtle import hideturtle
-from turtle import onscreenclick
-from turtle import setup
-from turtle import tracer
-from turtle import up
-from turtle import update
+from random import shuffle
+from turtle import up, down, goto, color, begin_fill, forward, left, end_fill
+from turtle import update, ontimer, write, setup, addshape, hideturtle, tracer
+from turtle import onscreenclick, done, shape, stamp, clear
 
 car = path('car.gif')
 tiles = list(range(32)) * 2
