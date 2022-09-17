@@ -1,10 +1,8 @@
-
-#Librerias
-
 from random import shuffle
 from turtle import up, down, goto, color, begin_fill, forward, left, end_fill
 from turtle import update, ontimer, write, setup, addshape, hideturtle, tracer
 from turtle import onscreenclick, done, shape, stamp, clear
+from freegames import path
 
 car = path('car.gif')
 tiles = list(range(32)) * 2
@@ -22,6 +20,7 @@ def square(x, y):
         forward(50)
         left(90)
     end_fill()
+
 
 def index(x, y):
     "Convert (x, y) coordinates to tiles index."
